@@ -1,0 +1,129 @@
+body{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(68, 0, 0, 0.6), rgba(11, 11, 11, 0.9)), url('https://i.ibb.co/KxkfBpC/logo.jpg');
+    /* background-image: url('logo.jpeg'); */
+    background-size:  120% 170%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: #000; */
+}
+
+.caja-login{
+    border-color: rgb(82, 0, 0);
+    background: rgba(11, 11, 11, 0.7);
+}
+
+.for-text{
+    color: #fff;
+    background-color: rgb(60, 60, 60, 0.5);
+}
+
+.for-text-ing{
+    background-color: rgba(81, 81, 81, 0.5);
+    color: #fff;
+}
+
+.caja-icon{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    top: 20px;
+}
+/* ---------------------------CABECERA/TITULO/LOGOS-------------------------------- */
+
+
+
+.caja-superior{
+    display: grid;
+}
+
+.p-superior{
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    /* margin: 0 20px; */
+    height: 150px;
+}
+
+.img-lat1{
+    width: 300px;
+    height: 300px;
+}
+
+.img-lat2{
+    width: 200px;
+    height: 250px;
+}
+
+/* .titulo{
+    width: 500px;
+    height: 150px;
+} */
+
+.titulo{
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+.caja-titulo{
+    margin: 0 20px;
+}
+
+/* -----------------------CAJA LOGIN------------------------------------ */
+
+.caja-superior-login{
+    display: grid;
+    /* margin: 0 0 0 80px; */
+}
+
+.caja-login{
+    border: 5px #560000 solid;
+    width: 400px;
+    border-radius: 25px;
+    background: rgba(11, 11, 11, 1);
+}
+
+.login{
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.subtitulo{
+    font-size: 45px;
+    text-align: center;
+}
+
+.for{
+    text-align: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.for-text{
+    height: 30px;
+    width: 200px;
+}
+
+.for-text-subtitulo{
+    font-size: 45px;
+}
+
+.for-text-ing{
+    width: 150px;
+    padding: 5px;
+    border: 3px black medium;
+}
+
+.for-text-ing:hover{
+    cursor: pointer;
+    background-color: #560000;
+    color: #fff;
+    transition: 0.2s ease all;
+}
